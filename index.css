@@ -55,3 +55,27 @@ body{
     color: white;
     text-decoration: none;
 }
+
+
+#img1{
+
+    box-shadow: 0px 0px 3px black;
+    width: 100%;
+    height: auto;
+    }
+    
+#img2{
+    
+    margin-top: 70px;
+    text-align: center;
+    display: block;
+    margin-bottom: 70px;
+   
+    }
+
+    area:focus{
+        
+       outline-color: #2980b9;
+           
+    }
+
