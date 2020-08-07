@@ -117,6 +117,25 @@ footer h1{
 }
 
 
+@media screen and (max-width:240px){
+
+    .sec3 h1{
+    
+        transform: translate(9%);
+       
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    .sec3 h1{
+    
+        transform: translate(23%);
+       
+    }
+
+}
 
 
 
