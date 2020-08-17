@@ -336,3 +336,35 @@ footer{
 html {
     scroll-behavior: smooth;
   }
+
+
+
+
+ #home  {
+    padding-right: 125px;
+}
+#tech{
+    padding-right: 130px;
+}
+
+    .contain .fas{
+        display: flex;
+        position: fixed;
+        top: 0;
+
+        font-size: 30px;
+        margin-top: 3%;
+        margin-right: 3%;
+        color: #0099F7;
+    }
+    
+    .navigation .fas{
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 30px;
+        margin-top: 3%;
+        margin-right: 3%;
+        color: #0099F7;
+    }
