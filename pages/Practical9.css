@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    padding-top:70px;
+    padding-top: 70px;
     font-family: 'Montserrat',cursive;
     background: #403B4A;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
@@ -13,33 +13,35 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
 
 }
 
+.para{
+    width: 90%;
+    margin-left:5.5% ;
+    margin-top:3%;
+    letter-spacing: 1.1px;
+}
 
 .fa-bars{
     position: fixed;
     top: 10px;
     right: 10px;
-    color: #0099F7;
+    color: #0099F7
 }
 
-.contain label{
-    z-index: 10;
+.fa-times{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+
+}
+
+.contain label:nth-of-type(1) {
+    z-index: 2;
 }
  
 
-.navigation0{
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background: #403B4A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transition: ease-in-out 1s;
-    height: 100px;
-  
+.navigation0 .nav li a{ 
+    visibility: hidden;
 }
 
 
@@ -51,7 +53,6 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     align-items: center;
     width: 100%;
-    z-index: 1;
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -59,6 +60,8 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
     height: 100px;
     box-shadow: 2px 4px 8px black;
     opacity:.7;
+    z-index: 1;
+
 }
 
 
@@ -131,18 +134,17 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 .h1{
     display: block;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
     letter-spacing: 3px;
     font-size: 20px;
 }
 
-.xplore img{
-
-    width: 80%;
-    margin-top: 3%;
-    margin-left: 12%;
-    box-shadow: 5px 5px 10px black;
+.xplore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .sec1{
     margin-top: 4%;
@@ -202,7 +204,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p1{
     width: 95%;
-    background-image: url("../img/p1.jpg");
+    background-image: url("  ../img/p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 240px;
@@ -211,7 +213,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p2{
     width: 95%;
-    background-image: url("../img/p2.jpeg");
+    background-image: url("  ../img/p2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 245px;
@@ -222,7 +224,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p3{
     width: 95%;
-    background-image: url("../img/p3.jpg");
+    background-image: url("  ../img/p3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 243px;
@@ -329,15 +331,18 @@ ul li .fas{
 
     
     .sec1 img{
-        width: 60%;
-        margin: 0 auto;
+        width: 80%;
         margin-top: 50px;
         margin-bottom: 30px;
-        border-radius: 200px;
+        border-radius: 250px;
     }
 
 
+
 }
+
+
+
 
 .sec4{
 margin-top: 4%;    
@@ -358,21 +363,71 @@ input{
 
 @media screen and (min-width:1125px){
 
-    .fa-bars{
+    .fa-bars,.fa-times{
         visibility: hidden;
-    }
+    }   
 
+    
+.xplore img{
+
+    width: 95%;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+    
 }
 
 @media screen and (max-width:1125px){
 
     
+  .navigation0  .nav li a{ 
+    visibility: visible;
+}
+    
+.navigation0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: ease-in-out 1s;
+    z-index: 2;
+}
 
-input[type="checkbox"]:checked + .navigation{
+.nav li a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navigation0 li {
+    font-size: 25px;
+    margin-top: 10px ;
+    margin-bottom: 10px; 
+}
+
+.nav{
+    flex-direction: column;
+}
+
+
+
+  .navigation  .nav li a{ 
+        visibility: hidden;
+    }
+
+
+input[type="checkbox"]:checked + .navigation0 {
     top: 0;
     right: -100%;
-    opacity: 50%;
+    width: 0;
+    opacity: 0%;
 }
+
 
  #home  {
     padding-right: 125px;
@@ -381,14 +436,15 @@ input[type="checkbox"]:checked + .navigation{
     padding-right: 130px;
 }
 
-   
+   .sec1 img{
+       margin-right: 4%;
+   }
 
     .sec2{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        text-align: center;
     }
     .maincontent , .seccontent{
         text-align: center;
@@ -399,7 +455,7 @@ input[type="checkbox"]:checked + .navigation{
 
         
     .sec2{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -407,44 +463,24 @@ input[type="checkbox"]:checked + .navigation{
     }
 
 
-}
+    .maincontent , .seccontent{
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 30px;}
 
-
-
-@media screen and (max-width:1125px){
-    
-    .navigation{
-        opacity: 1;
-    }
-    
-    .nav li a {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-   .navigation li {
-        font-size: 25px;
-        margin-top: 10px ;
-        margin-bottom: 10px; 
+    .xplore img{
+        width: 100%;
     }
 
-    .navigation .logo{
-        display: none;
-    }
-
-    .navigation{
-        height: 400px;
-    }
-    
-    body{
-        padding-top: 500px;
-    }
-
-    .nav{
-        flex-direction: column;
-    }
 
 }
+
+
+
 
 html {
     scroll-behavior: smooth;
   }
+
+
