@@ -247,7 +247,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p1{
     width: 95%;
-    background-image: url("  p1.jpg");
+    background-image: url("  ../img/p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 240px;
@@ -256,7 +256,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p2{
     width: 95%;
-    background-image: url("  p2.jpeg");
+    background-image: url("  ../img/p2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 245px;
@@ -267,7 +267,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p3{
     width: 95%;
-    background-image: url("  p3.jpg");
+    background-image: url("  ../img/p3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 243px;
