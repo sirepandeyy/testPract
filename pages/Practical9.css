@@ -63,8 +63,45 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
     z-index: 1;
 
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropchild{
+display: none;
+position: absolute;   
+margin-left: 4%;
+margin-top: 10%;
+
+}
+
+.dropdown .dropchild a{
+    display: none;
+
+text-decoration: none;
+background-color: #fff;
+margin-top: 6px;
+padding: 15px 38px;
+display: block;
+background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); 
+color: #232526;
+border-radius: 1px;
+
+}
 
 
+
+
+.dropdown:hover .dropchild{
+    display: block;
+}
+
+.dropchild a:hover{
+    background-color: white;
+}
 
 
 .contain label{
@@ -91,13 +128,19 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
 }
 
 .navigation .logo{
-    flex:1 1 auto;
+    position: fixed;
+    left: 0;
     text-transform: uppercase;
     font-size: 35px;
     text-decoration: none;
     margin-left: 10%;
     color: white;
     
+}
+
+.navigation .nav{
+    position: fixed;
+    right: 0;
 }
 
 .nav li a{
@@ -204,7 +247,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p1{
     width: 95%;
-    background-image: url("  ../img/p1.jpg");
+    background-image: url("  p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 240px;
@@ -213,7 +256,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p2{
     width: 95%;
-    background-image: url("  ../img/p2.jpeg");
+    background-image: url("  p2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 245px;
@@ -224,7 +267,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 
 .p3{
     width: 95%;
-    background-image: url("  ../img/p3.jpg");
+    background-image: url("  p3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 243px;
@@ -417,7 +460,7 @@ input{
 
 
   .navigation  .nav li a{ 
-        visibility: hidden;
+        display: none;
     }
 
 
@@ -426,8 +469,8 @@ input[type="checkbox"]:checked + .navigation0 {
     right: -100%;
     width: 0;
     opacity: 0%;
-      transform: rotate(360deg);
-    }
+    transform: rotate(360deg);
+}
 
 
  #home  {
