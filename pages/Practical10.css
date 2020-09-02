@@ -528,7 +528,7 @@ border-radius: 1px;
 
 .p1{
     width: 95%;
-    background-image: url(" ../img/p1.jpg");
+    background-image: url("../img/p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 240px;
@@ -537,7 +537,7 @@ border-radius: 1px;
 
 .p2{
     width: 95%;
-    background-image: url(" ../img/p2.jpeg");
+    background-image: url("../img/p2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 245px;
@@ -548,7 +548,7 @@ border-radius: 1px;
 
 .p3{
     width: 95%;
-    background-image: url(" ../img/p3.jpg");
+    background-image: url("../img/p3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 243px;
