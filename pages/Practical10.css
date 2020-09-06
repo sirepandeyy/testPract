@@ -663,6 +663,7 @@ border-radius: 1px;
     border-radius: 5px;
     margin: 30px;
     padding-bottom: 30px;
+      padding-right:10px;
     transition: ease-in-out 0.3s;
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -679,7 +680,7 @@ border-radius: 1px;
 #box p{
     font-size: 19px;
     text-align: start;
-    
+      text-align: justify;    
     margin-left: 20px;
 }
 
