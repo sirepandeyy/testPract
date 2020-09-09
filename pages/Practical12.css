@@ -1,0 +1,63 @@
+body{
+    padding-top: 50px;
+    font-family: "Montserrat" , sans-serif;
+}
+caption{
+    font-size: 30px; 
+    padding: 15px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+}
+button{
+    padding: 15px;
+    background-color:rgb(69, 181, 233) ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table{
+    width: 75%;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table, th, td {
+border-collapse:collapse ;
+}
+
+th {
+    text-align: center;
+    font-size:25px;
+    padding: 10px;
+}
+tr td{
+    text-align: center;
+}
+tr td{
+    padding: 10px ;
+}
+tr:nth-of-type(odd){
+    background-color:rgba(red, green, blue, .5) ;
+
+}
+
+tr:nth-of-type(even){
+    background-color: rgba(0, 0, 0, .3);
+
+}
+th{
+    background-color: white;
+}
+.fa-check{
+    color:green;
+}
+.fa-times{
+    color: red;
+}
+
+
+
+

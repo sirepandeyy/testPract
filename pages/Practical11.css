@@ -1,0 +1,110 @@
+body{
+    padding-top: 50px;
+    font-family: "Montserrat" , sans-serif;
+}
+
+table{
+    width: 95%;
+    font-size: 17px;
+    margin: 0 auto;
+}
+
+.ed{
+    position: absolute;
+    visibility: hidden;
+    color: rgba(0, 0, 0,0.5);
+    text-align: start;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 3px 2px 5px;
+}
+.fa-pen:hover .ed{
+    visibility: visible;
+}
+
+
+caption{
+    border-top: 1px solid rgba(0, 0, 0,0.1);
+    border-left: 1px solid rgba(0, 0, 0,0.1); 
+    border-right: 1px solid rgba(0, 0, 0,0.1);
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+table ,th, td{
+   border-bottom: 1px solid rgba(0, 0,0, .1);
+    border-collapse: collapse;
+}
+table{
+    border: 2px solid black;
+}
+
+tr th:nth-of-type(2){
+    text-align: start;
+}
+
+tr td:nth-of-type(3) , tr td:nth-of-type(4) , tr td:nth-of-type(5) {
+    text-align: center;
+}
+
+tr td i{
+    color: gray;
+}
+
+tr td .fa-trash:hover{
+color: red;
+}
+
+
+
+
+tr td i:nth-of-type(1){
+    padding-right: 6px;
+}
+
+tr td i:nth-of-type(5) {
+    display: inline;
+}
+
+tr th:nth-of-type(1){
+    text-align: start;
+}
+
+tr td:nth-of-type(2){
+    text-align: start;
+}
+
+th , td{ 
+    padding: 10px;
+}
+
+tr th:nth-of-type(1) , tr td:nth-of-type(1) {
+    padding-left: 15px;
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0,0.1);
+}
+
+tr:nth-of-type(1):hover{
+    background-color: white;
+}
+
+tr td:nth-of-type(4){
+    color: green;
+}
+
+tr td .fa-pen:hover{
+ color: #3895D3;
+}
+
+tr td:nth-of-type(3){
+    color:rgba(0, 0, 0,0.5);
+}
+
+
+
+
