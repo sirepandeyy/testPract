@@ -49,7 +49,7 @@ let today = new Date(),
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundRepeat = "no-repeat";
         greeting.textContent = "Good AfterNoon"
-    }else if(hour >=4 && hour < 12){
+    }else if(hour < 12){
         document.body.style.background = "url('morning.jpg')"
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "center";
